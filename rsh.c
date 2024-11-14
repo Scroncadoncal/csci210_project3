@@ -58,7 +58,7 @@ int main() {
 
 		if (strcmp(argv[0], "cd") == 0) {
 			if (argv[2] != NULL) {
-				printf("cd: too many arguments\n");
+				printf("-rsh: cd: too many arguments\n");
 				continue;
 			}
 			char *path = argv[1];
