@@ -96,7 +96,7 @@ int main() {
 			}
 			posix_spawnattr_destroy(&attr);
 		} else {
-			printf("NOT ALLOWED\n");
+			printf("NOT ALLOWED!\n");
 		}
 	}
 	return 0;
